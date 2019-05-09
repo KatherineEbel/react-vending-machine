@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Chips from '../Chips/Chips'
 import NavBar from '../NavBar/NavBar'
 import Sardines from '../Sardines/Sardines'
+import Soda from '../Soda/Soda'
 import VendingMachine from '../VendingMachine/VendingMachine'
 
 function AppRouter() {
@@ -13,6 +14,7 @@ function AppRouter() {
         <Route exact path="/" component={ VendingMachine }/>
         <Route path="/chips" component={ Chips }/>
         <Route path="/sardines" component={ Sardines }/>
+        <Route path="/soda" component={ Soda }/>
       </Switch>
     </Router>
   );

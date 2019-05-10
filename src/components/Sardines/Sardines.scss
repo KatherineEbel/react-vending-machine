@@ -1,0 +1,42 @@
+// GIF url
+//
+.Sardines {
+  background: url("https://media.giphy.com/media/tVk4w6EZ7eGNq/giphy.gif") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &--actions {
+    align-items: center;
+    background: rgba(56, 61, 69, 0.8);
+    border-radius: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    justify-content: center;
+    order: 2;
+    padding: 30px;
+    h1 {
+      font-weight: 300;
+    }
+
+    a {
+      border: 1px solid aliceblue;
+      border-radius: 20px;
+      color: aliceblue;
+      box-shadow: 3px 3px 3px #343434;
+      margin-top: 1.5rem;
+      padding: 10px;
+      text-decoration: none;
+
+      &:hover {
+        background: darken(rgba(56, 61, 69, 0.7), 10%);
+        box-shadow: 1px 1px 1px #343434;
+        transform: translateY(3px);
+      }
+    }
+  }
+}

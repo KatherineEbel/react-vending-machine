@@ -5,8 +5,10 @@ import { Link } from 'react-router-dom'
 function Sardines (): React.ReactElement {
   return (
     <div className="Sardines">
-      <h1>Sardines Page</h1>
-      <Link to="/">Go Back</Link>
+      <div className="Sardines--actions">
+        <h1>You don't eat the sardines. The sardines, they eat you!</h1>
+        <Link to="/">Go Back</Link>
+      </div>
     </div>
   )
 }

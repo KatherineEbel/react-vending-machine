@@ -1,3 +1,24 @@
+.NavBar {
+  background: #285F99;
+  color: white;
+  height: 60px;
+  padding: 20px;
+
+  nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+
+    &:visited {
+      color: white;
+    }
+  }
+}
 .active {
   color: mediumpurple;
   font-weight: bold;

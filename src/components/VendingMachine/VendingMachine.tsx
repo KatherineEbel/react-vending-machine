@@ -4,13 +4,15 @@ import './VendingMachine.scss'
 
 function VendingMachine () {
   return (
-    <div>
-      <h1>Hello, I am a vending machine. What would you like to eat?</h1>
-      <ul>
-        <li><Link to="/soda">Soda</Link></li>
-        <li><Link to="/chips">Chips</Link></li>
-        <li><Link to="/sardines">Sardines</Link></li>
-      </ul>
+    <div className="VendingMachine">
+      <div className="VendingMachine--title">
+        <h1>Hello, I am a vending machine. What would you like to eat?</h1>
+      </div>
+      <div className="VendingMachine--items">
+        <Link to="/soda">Soda</Link>
+        <Link to="/chips">Chips</Link>
+        <Link to="/sardines">Sardines</Link>
+      </div>
     </div>
   )
 }
